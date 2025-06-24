@@ -1,0 +1,123 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Ofertas</title>
+	     
+
+	     <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 0.5em 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em 1em;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .product-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .product-item h3 {
+            margin-top: 0;
+        }
+        .product-item .price {
+            font-weight: bold;
+            color: green;
+        }
+        .product-item button {
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+   </head>
+   <body>
+   <header>
+        <h1>VENTA DE REPUESTO ROMERITO</h1>
+    </header>
+    <nav>
+        <a href="#"><a href="index.html">Inicio</a></a>
+        <a href="#"><a href="Ofertas.html">Ofertas</a></a>
+        <a href="#"><a href="Contacto.html">Contacto</a></a>
+    </nav>
+    <div class="container">
+        <h2></h2>
+       <div class="product-item">
+                <img src="kit de tramision.jpeg" alt="kit de tramision ">
+                <h3>Kit de Tramisión</h3>
+                <p class="price">$20.5000</p>
+                <button>Comprar</button>
+            </div>
+			<div class="product-item">
+                <img src="cubierta.jpeg" alt="Cubierta">
+                <h3>Cubierta</h3>
+                <p class="price">$40.000</p>
+                <button>Comprar</button>
+            </div>
+            
+			
+				<MARQUEE direction=right>   <IMG SRC="sonic2.gif" style="font-size: 0.2em;">   </MARQUEE>		
+			
+			
+            </div>
+            </div>
+    </div>
+	<br>
+	
+
+    <footer>
+	<span style="font-size: 0.5em;">&copy; Tienda de repuesto de Mercedes Romero </span>
+    </footer>
+   </body>
+ </html>
+
+	 
+

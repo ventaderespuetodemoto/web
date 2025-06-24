@@ -1,0 +1,160 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Contacto</title>
+	 <script language="JavaScript">
+          function MueveReloj(){
+             FechaHora = new Date()
+             hora = FechaHora.getHours()
+             minuto = FechaHora.getMinutes()
+		    //if (minuto < 10) minuto ="0"+ minuto
+             segundo = FechaHora.getSeconds()
+                        //if (segundo < 10) segundo ="0"+ segundo
+             HoraActual = hora + " : " + minuto + " : " + segundo
+             document.FormularioReloj.reloj.value = HoraActual
+             setTimeout("MueveReloj()",1000)
+         }
+     </script>
+<script LANGUAGE="JavaScript">
+  var mifecha=new Date()
+  var año=mifecha.getYear()
+  if (año < 1000) año += 1900
+  var dia = mifecha.getDay()
+  var mes = mifecha.getMonth()
+  var diax  = mifecha.getDate()
+  if (diax < 10) diax ="0"+ diax
+ var dialetra = new Array("Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sabado")
+ 
+var mesletra = new Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre")
+
+ document.write(dialetra[dia]+" "+ diax +" de "+ mesletra[mes] + " de "+ año)
+ </script>
+
+	 
+	     <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 0.5em 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em 1em;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .product-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .product-item h3 {
+            margin-top: 0;
+        }
+        .product-item .price {
+            font-weight: bold;
+            color: green;
+        }
+        .product-item button {
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+   </head>
+   <body background="Fondo5.jpg" onload="MueveReloj ()">
+    <br>
+       <form name = "FormularioReloj">
+          <input type = "text" name = "reloj" size = "10">
+       </form>
+  
+
+   <header>
+        <h1>VENTA DE REPUESTO ROMERITO</h1>
+    </header>
+    <nav>
+        <a href="#"><a href="index.html">Inicio</a> </a>
+        <a href="#"><a href="Ofertas.html">Ofertas</a></a>
+        <a href="#"><a href="Contacto.html">Contacto</a></a>
+    </nav>
+    <div class="container">
+        <h2></h2>
+       
+   
+
+<P Align=center>         <Font Face="impact">
+<TABLE BORDER=1> 
+<TR><TD> 
+<MARQUEE  bgcolor=red> contactarnos a los siguiente redes sociales </MARQUEE> 
+</TD></TR> 
+</TABLE>
+</FONT>    </p>
+<hr>
+
+<a href="https://wa.me/5493826505927" target="_blank">
+  <img src="whatsapp.jpg" alt="WhatsApp" id="whatsapp-flotante">
+  <p>Sígueme en <br>
+  <a href="https://www.instagram.com/nicolasmr11114/" target="_blank" rel="noopener noreferrer"> <img src="instagram.png"alt="instagram" id="instagram-flotante"></a></p>
+</a>
+
+<marquee id="ejemplo" direction="up" height=50 scrollamount=2 scrolladelay=100>
+  <pre>venta de respuesto de moto
+       de MERCEDES ROMERO 
+       Portezuelo - La Rioja</pre>
+</marquee>
+			
+            </div>
+            </div>
+    </div>
+	<br>
+	
+
+    <footer>
+	<span style="font-size: 0.5em;">&copy; Tienda de repuesto de Mercedes Romero </span>
+    </footer>
+   </body>
+ </html>
